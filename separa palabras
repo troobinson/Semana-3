@@ -1,0 +1,12 @@
+public class Semana31 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String Texto = "Mañana va a ser Viernes";
+        StringTokenizer st = new StringTokenizer(Texto);
+        System.out.println (st.countTokens());
+    }
+   
+}
